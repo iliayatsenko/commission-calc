@@ -1,0 +1,23 @@
+{
+    "name": "iliayatsenko/commission-calc",
+    "description": "Test app: commission calculation",
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2",
+        "php-vcr/php-vcr": "^1.6"
+    },
+    "scripts": {
+        "test-functional": "phpunit --configuration phpunit-functional.xml",
+        "test-unit": "phpunit --configuration phpunit-unit.xml"
+    },
+    "autoload": {
+        "psr-4": {
+            "CommissionCalc\\": "src",
+            "CommissionCalcTests\\Integration\\": "tests/integration",
+            "CommissionCalcTests\\Unit\\": "tests/unit"
+        }
+    }
+}
