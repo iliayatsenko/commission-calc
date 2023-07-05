@@ -18,5 +18,4 @@
 1. Run `docker compose -f docker_dev/compose.yml run --rm commission-calc composer test-unit`
 
 #### To run the application with custom input file:
-1. Run `docker compose -f docker_dev/compose.yml run -v $(pwd):/var/www/html --rm commission-calc php calc.php 
-   <input_filename>`
+1. Run `docker compose -f docker_dev/compose.yml run --rm commission-calc php calc.php <input_filename>`

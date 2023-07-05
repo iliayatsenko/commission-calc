@@ -7,9 +7,6 @@
          beStrictAboutChangesToGlobalState="true"
          xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.2/phpunit.xsd"
          cacheDirectory=".phpunit.cache">
-    <php>
-        <env name="APP_ENV" value="test-unit"/>
-    </php>
     <testsuites>
         <testsuite name="main">
             <directory>tests/unit</directory>
