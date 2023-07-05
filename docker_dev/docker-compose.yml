@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  php:
+    platform: 'linux/x86_64'
+    stdin_open: true
+    entrypoint: /bin/bash
+    tty: true
+    env_file: .env.defaults
+    working_dir: /var/www/html
+    user: www-data
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        - "USER_ID=${USER_ID:?Set USER_ID env var}"
+        - "GROUP_ID=${GROUP_ID:?Set GROUP_ID env var}"
+    container_name: commission-calc-php
+    volumes:
+      - ../:/var/www/html
+      - ./conf/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
+    ports:
+      - "9001:9001"
