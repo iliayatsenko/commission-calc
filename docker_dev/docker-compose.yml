@@ -4,7 +4,6 @@ services:
   commission-calc:
     image: iliayatsenko/commission-calc
     platform: 'linux/x86_64'
-    command: php calc.php data/transactions.txt
     env_file: .env.defaults
     working_dir: /var/www/html
     user: www-data

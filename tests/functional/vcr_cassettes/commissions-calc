@@ -1,0 +1,351 @@
+
+-
+    request:
+        method: GET
+        url: 'http://api.exchangeratesapi.io/latest?base=EUR&access_key=ed55beced187e20645e44ec656b7b144'
+        headers:
+            Host: api.exchangeratesapi.io
+    response:
+        status:
+            code: 200
+            message: OK
+        headers:
+            Date: 'Wed, 05 Jul 2023 16:01:34 GMT'
+            Content-Type: 'application/json; Charset=UTF-8'
+            Transfer-Encoding: chunked
+            Connection: keep-alive
+            x-apilayer-transaction-id: 7a75902d-b710-4896-9b23-52a8d29bcf67
+            access-control-allow-methods: 'GET, HEAD, POST, PUT, PATCH, DELETE, OPTIONS'
+            access-control-allow-origin: '*'
+            x-request-time: '0.011'
+            CF-Cache-Status: DYNAMIC
+            Report-To: '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LQmDmOisGgcbDYiPuDthADXELnanCwmTFAG7AH5iPcCQ%2Bp%2BNIx5BCZW5ugtYjoX5%2FJSrjML80%2FFwKSr8J1L7HfUGWd%2BbrFzAvT68Aq0kFojvmZt9s%2FB2PtbVnGnzUmPrC%2BHg%2FYGIx5Yq"}],"group":"cf-nel","max_age":604800}'
+            NEL: '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+            Server: cloudflare
+            CF-RAY: 7e20d3cceccc2473-KBP
+        body: '{"success":true,"timestamp":1688572864,"base":"EUR","date":"2023-07-05","rates":{"AED":3.991131,"AFN":92.361615,"ALL":104.967817,"AMD":420.380805,"ANG":1.957743,"AOA":898.079111,"ARS":282.349062,"AUD":1.631063,"AWG":1.958623,"AZN":1.848041,"BAM":1.95295,"BBD":2.1933,"BDT":117.80269,"BGN":1.953243,"BHD":0.409683,"BIF":3085.985137,"BMD":1.086614,"BND":1.469156,"BOB":7.506048,"BRL":5.278993,"BSD":1.086315,"BTC":3.5794622e-5,"BTN":89.296472,"BWP":14.639639,"BYN":2.741799,"BYR":21297.6439,"BZD":2.189605,"CAD":1.442644,"CDF":2619.827503,"CHF":0.975866,"CLF":0.031445,"CLP":867.803243,"CNY":7.875238,"COP":4492.727115,"CRC":589.439929,"CUC":1.086614,"CUP":28.795284,"CVE":110.236885,"CZK":23.77078,"DJF":193.407792,"DKK":7.448535,"DOP":60.252689,"DZD":147.617631,"EGP":33.577583,"ERN":16.299217,"ETB":59.326829,"EUR":1,"FJD":2.442112,"FKP":0.853595,"GBP":0.855117,"GEL":2.830614,"GGP":0.853595,"GHS":12.332728,"GIP":0.853595,"GMD":64.759212,"GNF":9404.647739,"GTQ":8.516573,"GYD":229.741605,"HKD":8.499178,"HNL":26.860837,"HRK":7.580344,"HTG":151.289249,"HUF":379.717489,"IDR":16380.007057,"ILS":4.017942,"IMP":0.853595,"INR":89.475314,"IQD":1423.464975,"IRR":45933.906614,"ISK":148.496525,"JEP":0.853595,"JMD":167.126141,"JOD":0.770845,"JPY":157.090749,"KES":152.87313,"KGS":95.157437,"KHR":4485.544301,"KMF":490.383897,"KPW":977.959297,"KRW":1414.71822,"KWD":0.333916,"KYD":0.905279,"KZT":484.25341,"LAK":20794.657824,"LBP":16592.603515,"LKR":334.581801,"LRD":196.236694,"LSL":20.417535,"LTL":3.20849,"LVL":0.657282,"LYD":5.232108,"MAD":10.66132,"MDL":19.959601,"MGA":4923.450213,"MKD":61.441663,"MMK":2281.171467,"MNT":3745.403367,"MOP":8.754405,"MRO":387.921184,"MUR":49.473461,"MVR":16.723281,"MWK":1140.945597,"MXN":18.474999,"MYR":5.071168,"MZN":68.728519,"NAD":20.417268,"NGN":840.497725,"NIO":39.726218,"NOK":11.583756,"NPR":142.876524,"NZD":1.757517,"OMR":0.418332,"PAB":1.086315,"PEN":3.935733,"PGK":3.830345,"PHP":60.285653,"PKR":306.289428,"PLN":4.460558,"PYG":7882.498385,"QAR":3.955821,"RON":4.950835,"RSD":117.248141,"RUB":98.501738,"RWF":1264.81926,"SAR":4.076267,"SBD":0.00091,"SCR":14.135408,"SDG":653.598556,"SEK":11.836894,"SGD":1.469765,"SHP":1.322138,"SLE":21.205206,"SLL":21460.636194,"SOS":618.830717,"SRD":40.851316,"STD":22490.725967,"SVC":9.504694,"SYP":2730.153007,"SZL":20.417226,"THB":37.977342,"TJS":11.88376,"TMT":3.814017,"TND":3.366874,"TOP":2.557563,"TRY":28.321628,"TTD":7.365253,"TWD":33.863802,"TZS":2635.040245,"UAH":40.117363,"UGX":4017.13846,"USD":1.086614,"UYU":40.648818,"UZS":12555.83026,"VEF":3040477.66884,"VES":30.404918,"VND":25812.527084,"VUV":129.549119,"WST":2.976138,"XAF":655.001266,"XAG":0.046796,"XAU":0.000565,"XCD":2.93663,"XDR":0.816708,"XOF":655.228203,"XPF":119.359146,"YER":271.977645,"ZAR":20.399285,"ZMK":9780.83598,"ZMW":19.091143,"ZWL":349.889421}}'
+        curl_info:
+            url: 'http://api.exchangeratesapi.io/latest?base=EUR&access_key=ed55beced187e20645e44ec656b7b144'
+            content_type: 'application/json; Charset=UTF-8'
+            http_code: 200
+            header_size: 768
+            request_size: 121
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.399456
+            namelookup_time: 0.102366
+            connect_time: 0.104251
+            pretransfer_time: 0.104339
+            size_upload: 0.0
+            size_download: 2813.0
+            speed_download: 7042.0
+            speed_upload: 0.0
+            download_content_length: -1.0
+            upload_content_length: 0.0
+            starttransfer_time: 0.399257
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 172.67.74.213
+            certinfo: {  }
+            primary_port: 80
+            local_ip: 172.18.0.2
+            local_port: 52346
+            http_version: 2
+            protocol: 1
+            ssl_verifyresult: 0
+            scheme: HTTP
+            appconnect_time_us: 0
+            connect_time_us: 104251
+            namelookup_time_us: 102366
+            pretransfer_time_us: 104339
+            redirect_time_us: 0
+            starttransfer_time_us: 399257
+            total_time_us: 399456
+            effective_method: GET
+    index: 0
+-
+    request:
+        method: GET
+        url: 'https://lookup.binlist.net/45717360'
+        headers:
+            Host: lookup.binlist.net
+    response:
+        status:
+            code: 200
+            message: ''
+        headers:
+            server: nginx
+            date: 'Wed, 05 Jul 2023 16:01:34 GMT'
+            content-type: 'application/json; charset=utf-8'
+            vary: Accept-Encoding
+            access-control-allow-origin: '*'
+        body: "{\"number\":{\"length\":16,\"luhn\":true},\"scheme\":\"visa\",\"type\":\"debit\",\"brand\":\"Visa/Dankort\",\"prepaid\":false,\"country\":{\"numeric\":\"208\",\"alpha2\":\"DK\",\"name\":\"Denmark\",\"emoji\":\"🇩🇰\",\"currency\":\"DKK\",\"latitude\":56,\"longitude\":10},\"bank\":{\"name\":\"Jyske Bank\",\"url\":\"www.jyskebank.dk\",\"phone\":\"+4589893300\",\"city\":\"Hjørring\"}}\n"
+        curl_info:
+            url: 'https://lookup.binlist.net/45717360'
+            content_type: 'application/json; charset=utf-8'
+            http_code: 200
+            header_size: 169
+            request_size: 63
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.182726
+            namelookup_time: 0.074457
+            connect_time: 0.107148
+            pretransfer_time: 0.147378
+            size_upload: 0.0
+            size_download: 326.0
+            speed_download: 1784.0
+            speed_upload: 0.0
+            download_content_length: -1.0
+            upload_content_length: 0.0
+            starttransfer_time: 0.182692
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 45.79.251.174
+            certinfo: {  }
+            primary_port: 443
+            local_ip: 172.18.0.2
+            local_port: 56722
+            http_version: 3
+            protocol: 2
+            ssl_verifyresult: 0
+            scheme: HTTPS
+            appconnect_time_us: 147182
+            connect_time_us: 107148
+            namelookup_time_us: 74457
+            pretransfer_time_us: 147378
+            redirect_time_us: 0
+            starttransfer_time_us: 182692
+            total_time_us: 182726
+            effective_method: GET
+    index: 0
+-
+    request:
+        method: GET
+        url: 'https://lookup.binlist.net/516793'
+        headers:
+            Host: lookup.binlist.net
+    response:
+        status:
+            code: 200
+            message: ''
+        headers:
+            server: nginx
+            date: 'Wed, 05 Jul 2023 16:01:34 GMT'
+            content-type: 'application/json; charset=utf-8'
+            vary: Accept-Encoding
+            access-control-allow-origin: '*'
+        body: "{\"number\":{},\"scheme\":\"mastercard\",\"type\":\"debit\",\"brand\":\"Debit\",\"country\":{\"numeric\":\"440\",\"alpha2\":\"LT\",\"name\":\"Lithuania\",\"emoji\":\"🇱🇹\",\"currency\":\"EUR\",\"latitude\":56,\"longitude\":24},\"bank\":{}}\n"
+        curl_info:
+            url: 'https://lookup.binlist.net/516793'
+            content_type: 'application/json; charset=utf-8'
+            http_code: 200
+            header_size: 169
+            request_size: 61
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.138797
+            namelookup_time: 0.034318
+            connect_time: 0.065624
+            pretransfer_time: 0.102908
+            size_upload: 0.0
+            size_download: 203.0
+            speed_download: 1462.0
+            speed_upload: 0.0
+            download_content_length: -1.0
+            upload_content_length: 0.0
+            starttransfer_time: 0.138761
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 45.79.251.174
+            certinfo: {  }
+            primary_port: 443
+            local_ip: 172.18.0.2
+            local_port: 56728
+            http_version: 3
+            protocol: 2
+            ssl_verifyresult: 0
+            scheme: HTTPS
+            appconnect_time_us: 102698
+            connect_time_us: 65624
+            namelookup_time_us: 34318
+            pretransfer_time_us: 102908
+            redirect_time_us: 0
+            starttransfer_time_us: 138761
+            total_time_us: 138797
+            effective_method: GET
+    index: 0
+-
+    request:
+        method: GET
+        url: 'https://lookup.binlist.net/45417360'
+        headers:
+            Host: lookup.binlist.net
+    response:
+        status:
+            code: 200
+            message: ''
+        headers:
+            server: nginx
+            date: 'Wed, 05 Jul 2023 16:01:34 GMT'
+            content-type: 'application/json; charset=utf-8'
+            vary: Accept-Encoding
+            access-control-allow-origin: '*'
+        body: "{\"number\":{\"length\":16,\"luhn\":true},\"scheme\":\"visa\",\"type\":\"credit\",\"brand\":\"Traditional\",\"prepaid\":false,\"country\":{\"numeric\":\"392\",\"alpha2\":\"JP\",\"name\":\"Japan\",\"emoji\":\"🇯🇵\",\"currency\":\"JPY\",\"latitude\":36,\"longitude\":138},\"bank\":{\"name\":\"CREDIT SAISON CO., LTD.\",\"url\":\"corporate.saisoncard.co.jp\",\"phone\":\"(03)3988-2111\"}}\n"
+        curl_info:
+            url: 'https://lookup.binlist.net/45417360'
+            content_type: 'application/json; charset=utf-8'
+            http_code: 200
+            header_size: 169
+            request_size: 63
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.098804
+            namelookup_time: 0.003196
+            connect_time: 0.032823
+            pretransfer_time: 0.066728
+            size_upload: 0.0
+            size_download: 331.0
+            speed_download: 3350.0
+            speed_upload: 0.0
+            download_content_length: -1.0
+            upload_content_length: 0.0
+            starttransfer_time: 0.098771
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 45.79.251.174
+            certinfo: {  }
+            primary_port: 443
+            local_ip: 172.18.0.2
+            local_port: 56734
+            http_version: 3
+            protocol: 2
+            ssl_verifyresult: 0
+            scheme: HTTPS
+            appconnect_time_us: 66604
+            connect_time_us: 32823
+            namelookup_time_us: 3196
+            pretransfer_time_us: 66728
+            redirect_time_us: 0
+            starttransfer_time_us: 98771
+            total_time_us: 98804
+            effective_method: GET
+    index: 0
+-
+    request:
+        method: GET
+        url: 'https://lookup.binlist.net/41417360'
+        headers:
+            Host: lookup.binlist.net
+    response:
+        status:
+            code: 200
+            message: ''
+        headers:
+            server: nginx
+            date: 'Wed, 05 Jul 2023 16:01:35 GMT'
+            content-type: 'application/json; charset=utf-8'
+            vary: Accept-Encoding
+            access-control-allow-origin: '*'
+        body: "{\"number\":{},\"scheme\":\"visa\",\"country\":{\"numeric\":\"840\",\"alpha2\":\"US\",\"name\":\"United States of America\",\"emoji\":\"🇺🇸\",\"currency\":\"USD\",\"latitude\":38,\"longitude\":-97},\"bank\":{\"name\":\"VERMONT NATIONAL BANK\",\"url\":\"www.communitynationalbank.com\",\"phone\":\"(802) 744-2287\"}}\n"
+        curl_info:
+            url: 'https://lookup.binlist.net/41417360'
+            content_type: 'application/json; charset=utf-8'
+            http_code: 200
+            header_size: 169
+            request_size: 63
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.108514
+            namelookup_time: 0.005701
+            connect_time: 0.036854
+            pretransfer_time: 0.072891
+            size_upload: 0.0
+            size_download: 275.0
+            speed_download: 2534.0
+            speed_upload: 0.0
+            download_content_length: -1.0
+            upload_content_length: 0.0
+            starttransfer_time: 0.108485
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 45.79.251.174
+            certinfo: {  }
+            primary_port: 443
+            local_ip: 172.18.0.2
+            local_port: 56746
+            http_version: 3
+            protocol: 2
+            ssl_verifyresult: 0
+            scheme: HTTPS
+            appconnect_time_us: 72737
+            connect_time_us: 36854
+            namelookup_time_us: 5701
+            pretransfer_time_us: 72891
+            redirect_time_us: 0
+            starttransfer_time_us: 108485
+            total_time_us: 108514
+            effective_method: GET
+    index: 0
+-
+    request:
+        method: GET
+        url: 'https://lookup.binlist.net/4745030'
+        headers:
+            Host: lookup.binlist.net
+    response:
+        status:
+            code: 200
+            message: ''
+        headers:
+            server: nginx
+            date: 'Wed, 05 Jul 2023 16:01:35 GMT'
+            content-type: 'application/json; charset=utf-8'
+            vary: Accept-Encoding
+            access-control-allow-origin: '*'
+        body: "{\"number\":{\"length\":16,\"luhn\":true},\"scheme\":\"visa\",\"type\":\"debit\",\"brand\":\"Traditional\",\"prepaid\":null,\"country\":{\"numeric\":\"826\",\"alpha2\":\"GB\",\"name\":\"United Kingdom of Great Britain and Northern Ireland\",\"emoji\":\"🇬🇧\",\"currency\":\"GBP\",\"latitude\":54,\"longitude\":-2},\"bank\":{}}\n"
+        curl_info:
+            url: 'https://lookup.binlist.net/4745030'
+            content_type: 'application/json; charset=utf-8'
+            http_code: 200
+            header_size: 169
+            request_size: 62
+            filetime: -1
+            ssl_verify_result: 0
+            redirect_count: 0
+            total_time: 0.124503
+            namelookup_time: 0.025397
+            connect_time: 0.056334
+            pretransfer_time: 0.091776
+            size_upload: 0.0
+            size_download: 284.0
+            speed_download: 2281.0
+            speed_upload: 0.0
+            download_content_length: -1.0
+            upload_content_length: 0.0
+            starttransfer_time: 0.124468
+            redirect_time: 0.0
+            redirect_url: ''
+            primary_ip: 45.79.251.174
+            certinfo: {  }
+            primary_port: 443
+            local_ip: 172.18.0.2
+            local_port: 56758
+            http_version: 3
+            protocol: 2
+            ssl_verifyresult: 0
+            scheme: HTTPS
+            appconnect_time_us: 91634
+            connect_time_us: 56334
+            namelookup_time_us: 25397
+            pretransfer_time_us: 91776
+            redirect_time_us: 0
+            starttransfer_time_us: 124468
+            total_time_us: 124503
+            effective_method: GET
+    index: 0

@@ -11,13 +11,16 @@
     },
     "scripts": {
         "test-functional": "phpunit --configuration phpunit-functional.xml",
-        "test-unit": "phpunit --configuration phpunit-unit.xml"
+        "test-unit": "phpunit --configuration phpunit-unit.xml --display-warnings"
     },
     "autoload": {
         "psr-4": {
             "CommissionCalc\\": "src",
             "CommissionCalcTests\\Integration\\": "tests/integration",
             "CommissionCalcTests\\Unit\\": "tests/unit"
-        }
+        },
+        "files": [
+            "src/functions.php"
+        ]
     }
 }
