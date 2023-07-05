@@ -1,5 +1,7 @@
 <?php
 
+$rates_api_key = 'ed55beced187e20645e44ec656b7b144';
+
 foreach (explode("\n", file_get_contents($argv[1])) as $row) {
 
     if (empty($row)) break;
@@ -17,7 +19,8 @@ foreach (explode("\n", file_get_contents($argv[1])) as $row) {
     $r = json_decode($binResults);
     $isEu = isEu($r->country->alpha2);
 
-    $rate = @json_decode(file_get_contents('https://api.exchangeratesapi.io/latest'), true)['rates'][$value[2]];
+    $rate_data = file_get_contents('http://api.exchangeratesapi.io/latest?access_key=' . $rates_api_key);
+    $rate = @json_decode($rate_data, true)['rates'][$value[2]];
     if ($value[2] == 'EUR' or $rate == 0) {
         $amntFixed = $value[1];
     }
