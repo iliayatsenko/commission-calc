@@ -3,6 +3,8 @@
 declare(strict_types=1);
 
 use CommissionCalc\Calculator\CorrectAmountsCalculator;
+use CommissionCalc\Calculator\Exceptions\InfrastructureException;
+use CommissionCalc\Calculator\Exceptions\UnexpectedInputException;
 use CommissionCalc\Infrastructure\BinLookupBinInfoProvider;
 use CommissionCalc\Infrastructure\ExchangeRatesCurrenciesRatesProvider;
 use CommissionCalc\Infrastructure\FileTransactionsProvider;
@@ -17,6 +19,14 @@ $calculator = new CorrectAmountsCalculator(
     curRatesProvider: new ExchangeRatesCurrenciesRatesProvider()
 );
 
-$correctedAmounts = $calculator->calculateCorrectedAmounts();
+try {
+    $correctedAmounts = $calculator->calculateCorrectedAmounts();
+} catch (UnexpectedInputException $e) {
+    echo 'Invalid input: ' . $e->getMessage() . "\n";
+    exit(1);
+} catch (InfrastructureException $e) {
+    echo 'Infrastructure error: ' . $e->getMessage() . "\n";
+    exit(1);
+}
 
 echo implode("\n", $correctedAmounts) . "\n";
